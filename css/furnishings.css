@@ -27,11 +27,10 @@ p {
 
 h1 {
 	margin:0;
-	text-align:left;
 	font-weight:700;
 	color:#fff;
 	font-size:16px;
-1}
+}
 	.lower {
 		font-weight:100;
 	}
@@ -150,4 +149,11 @@ footer {
 	padding-top: 40px;
 	border-top: 1px dotted #fff;
 	text-align: center;
+}
+
+h1,
+h2,
+.asks,
+.finalaskdonate {
+  text-align: center;
 }
