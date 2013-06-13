@@ -40,7 +40,7 @@
  							<script type="text/javascript">// <![CDATA[
  							var WePay = WePay || {};WePay.load_widgets = WePay.load_widgets || function() { };WePay.widgets = WePay.widgets || [];WePay.widgets.push( {object_id: 1806487170,widget_type: "donation_campaign",anchor_id: "wepay_widget_anchor_5183b11579564",widget_options: {list_suggested_donations: true,allow_cover_fee: true,enable_recurring: true,allow_anonymous: true,button_text: "Donate"}});if (!WePay.script) {WePay.script = document.createElement('script');WePay.script.type = 'text/javascript';WePay.script.async = true;WePay.script.src = 'https://static.wepay.com/min/js/widgets.v2.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(WePay.script, s);} else if (WePay.load_widgets) {WePay.load_widgets();}
  							// ]]></script>
- 							<p><i><a href="#transparency">Learn how we're spending our donations</a></i></p>
+ 							<p style="margin-top:20px;"><i><a href="#transparency">Learn how we're spending our donations</a></i></p>
 				</div>
 			</div>
 		</div>
@@ -111,14 +111,17 @@
 
 				<div class="row-fluid signup">
 					<div class="span12">
-						<h2>Stay up to date</h2>
-						<form action="http://detroit.createsend.com/t/i/s/cfi/" method="post" id="subForm">
-							<div>
-								<input type="text" name="cm-cfi-cfi" id="cfi-cfi" placeholder="Your email"><br>
-								<input type="submit" value="Subscribe" class="btn">
-							</div>
+						<h2>Get email updates</h2>
+						<div id="mc_embed_signup">
+						<form action="http://detroitledger.us7.list-manage1.com/subscribe/post?u=5f6c82c52e266389140a08ab5&amp;id=f5dc27de43" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<label for="mce-EMAIL">Each week, we'll share what we're researching and building, how you can help, and what new tools and datasets are available for use.</label>
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+							<div style="clear:both"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 						</form>
-				</div>
+						</div>
+
+            <!--End mc_embed_signup-->
+          </div>
 			</div>
 		</div>
 
